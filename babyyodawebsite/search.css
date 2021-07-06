@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+#top-bar {
+    text-align: right;
+    width: 98%;
+}
+
+.menu {
+    margin-left: 15px;
+    color: rgb(117, 101, 101);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.menu:hover{
+    text-decoration: underline;
+}
+
+#app-dropdown {
+    width: 285px;
+    padding: 28px;
+    border: 1px solid rgb(197, 191, 191);
+    box-shadow: 0 2px 10px rgb(49, 46, 46);
+    border-radius: 15px;
+    position:absolute;
+    right: 87px;
+    margin-top: 10px;
+    display: none;
+}
+
+#d-wrapper:hover
+#app-dropdown {
+    display: block;
+}
+
+.app-item {
+    text-align: center;
+    display: inline-block;
+    width: 84px;
+    padding-top: 10px;
+    padding-bottom: -10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.app-item:hover {
+    box-shadow: 0 1px 10px black;
+    cursor: pointer;
+}
+
+.app-img {
+    width: 50px;
+    height: 50px;
+}
+
+#d-wrapper {
+    display: inline-block;
+}
+
+
+#d-menu {
+    position: relative;
+    top: 6px;
+    padding: 5px;
+}
+
+#d-menu:hover {
+    border-style: none;
+    border-radius: 16px;
+    background-color: rgba(141, 128, 128, 0.26);
+}
+
+
+
+.img:hover {
+    box-shadow: 0 1px 10px black;
+    cursor: pointer;
+}
+
+
+
+#usr-icon {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 9.5px;
+    border-style: none;
+    border-radius: 17.5px;
+}
+
+#search-wrap {
+    margin-top: 120px;
+    /* position: relative; */
+    margin-left: 24%;
+    text-align: center;
+    width: 50%;
+   
+
+}
+
+.go-log {
+    font-size: 90px;
+    font-weight: 600px;
+    margin-left: -8px;
+}
+
+#search-bar {
+    margin-top: 20px;
+}
+
+
+
+#s-box {
+    width: 70%;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    padding-right: 15px;
+    padding-left: 15px;
+    outline: none;
+    border-color: rgb(212, 200, 200);
+    border-width: .5px;
+    
+}
+
+#s-box:hover {
+    box-shadow: 1px 1px 10px grey;
+    cursor:text;
+}
+
+
+
+#search-btns {
+    margin-top: 20px;
+}
+
+.s-btns {
+    border-style: none;
+    border-radius: 2px;
+    background-color: rgba(197, 184, 184, 0.425);
+    padding:7px 10px 7px 10px;
+    margin-left: 7px;
+}
+
+.s-btns:hover {
+    box-shadow:1px 1px 10px grey;
+    cursor: pointer;
+}
+
+
+

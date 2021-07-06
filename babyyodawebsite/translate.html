@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+       div {
+           
+           height: 150px;
+           width: 300px;
+           background-color: cornflowerblue;
+           position: absolute;
+           left: 50%;
+           top: 50%;
+           transform: translateX(-50%) translateY(-50%);
+           /* transition-property:
+           background-color;
+           transition-duration: 3000ms;
+           transition-timing-function: ease-in; */
+           /* transition: background-color 3s ease-in, border-radius 3s ease-in; */
+           animation: pulse;
+           animation-duration: 5s;
+           animation-iteration-count: infinite;
+           animation-direction: alternate;
+           /* animation: timing-function ease-in; */
+           animation-fill-mode: forwards;
+       } 
+
+       div:hover {
+           animation-play-state: paused;
+       }
+
+
+       /* div:hover {
+           background-color:crimson;
+           border-radius: 150px;
+       } */
+
+       @keyframes pulse {
+           0% {
+               background-color: darkgoldenrod;
+               border-radius: 0px;
+               top: 10%;
+           }
+
+           50% {
+               background-color: darkorchid;
+               border-radius: 150px;
+               transform: translate(10,20);
+               top: 50%;
+           }
+
+           100% {
+               transform: translate(50,80);
+               top: 100%;
+           }
+       }
+
+
+    </style>
+
+
+</head>
+<body>
+    <div>
+        <p>hello</p>
+    </div>
+    
+</body>
+</html>
