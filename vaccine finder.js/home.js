@@ -73,7 +73,7 @@ function getVaccine(pin){
         if(this.readyState == '4'){
             if(this.status === 200)
             {
-                // var response = JSON.parse(this.responseText).centers;
+                var response = JSON.parse(this.responseText).centers;
 
                 
 
